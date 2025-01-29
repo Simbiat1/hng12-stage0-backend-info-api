@@ -2,16 +2,6 @@
 
 A simple API that returns basic information in JSON format,including an email address, the current date and time, and the URL of this project's GitHub repository. Built with Node.js and Express.js for the HNG12 Internship Stage 0 task.
 
-## API Documentation
-
-### Endpoint URL
-
-`https://hng12-stage0-backend-info-api.onrender.com/info_api`
-
-### Environment Variables
-
-The email address and GitHub repository URL are stored as environment variables on the Render platform for security and configuration purposes. This ensures that sensitive information is not hardcoded in the source code.
-
 ## Setup Instructions (Local Development)
 
 If you wish to run the API locally, follow these steps:
@@ -46,6 +36,16 @@ node index.js
 
 The server will start listening on port 4000.
 
+## API Documentation
+
+### Endpoint URL
+
+`https://hng12-stage0-backend-info-api.onrender.com/info_api`
+
+### Environment Variables
+
+The email address and GitHub repository URL are stored as environment variables on the Render platform for security and configuration purposes. This ensures that sensitive information is not hardcoded in the source code.
+
 ### Example Usage
 
 You can test the API using `curl`, Postman, or your browser's developer tools.
@@ -77,3 +77,7 @@ curl [https://hng12-stage0-backend-info-api.onrender.com/info_api](https://hng12
 - `email`: A registered email address.
 - `current_datetime`: The current date and time in ISO 8601 format (UTC).
 - `github_url`: The URL of this project's GitHub repository.
+
+## Backlink
+
+`https://hng.tech/hire/nodejs-developers`
