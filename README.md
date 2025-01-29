@@ -70,7 +70,7 @@ curl [https://hng12-stage0-backend-info-api.onrender.com/info_api](https://hng12
 {
   "email": "email@example.com", // Example email (set on Render)
   "current_datetime": "2020-10-28T12:34:56.789Z", // Example date/time (will be dynamically generated based on current date/time)
-  "github_url": "(https://github.com/username/repo.git)" // Example GitHub URL (set on Render)
+  "github_url": "(https://github.com/username/repo)" // Example GitHub URL (set on Render)
 }
 ```
 
