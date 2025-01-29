@@ -19,7 +19,7 @@ const github_repo_url = process.env.GITHUB_URL;
 app.get('/info_api', (req, res) => {
 try {
     // to get current date and time in the ISO 8601 formatted timestamp.
-   const now = new Date().toISOString().slice(0, 19) + 'Z';
+    const now = new Date().toLocaleString('sv-SE', { timeZoneName: 'short' }).slice(0, 19);
 
    //error handling if required data are not available
    if (!e_mail || !github_repo_url) {
