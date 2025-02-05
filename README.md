@@ -10,7 +10,7 @@ If you wish to run the API locally, follow these steps:
 
 ```bash
 git clone [https://github.com/Simbiat1/hng12-stage0-backend-info-api.git](https://github.com/Simbiat1/hng12-stage0-backend-info-api.git)
-cd hng-stage-0-api  # To go into the project directory
+cd hng-stage-0-backend-info-api  # To go into the project directory
 ```
 
 2.  **Install dependencies:**
